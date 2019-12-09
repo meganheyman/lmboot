@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "aov", "lm", "model.frame", "model.matrix",
+               "model.response", "na.pass", "residuals", "rexp", "rlnorm",
+               "rnorm", "rt", "runif")

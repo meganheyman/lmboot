@@ -1,0 +1,22 @@
+Package: lmboot
+Type: Package
+Title: Bootstrap in Linear Models
+Version: 0.0.1
+Date: 2019-05-13
+Authors@R: person("Megan", "Heyman", email="heyman@rose-hulman.edu", role=c("aut","cre"))
+Description: Various efficient and robust bootstrap methods are implemented for 
+    linear models with least squares estimation.  Functions within this package 
+    allow users to create bootstrap sampling distributions for model parameters, 
+    test hypotheses about parameters, and visualize the bootstrap sampling or null 
+    distributions.  Methods implemented for linear models include the wild bootstrap by 
+    Wu (1986) <doi:10.1214/aos/1176350142>, the residual and paired bootstraps by
+    Efron (1979, ISBN:978-1-4612-4380-9), the delete-1 jackknife by 
+    Quenouille (1956) <doi:10.2307/2332914>, and the Bayesian bootstrap by 
+    Rubin (1981) <doi:10.1214/aos/1176345338>.
+Depends: R (>= 3.5.0)
+Imports: 
+    evd (>= 2.3.0), 
+    stats (>= 3.6.0)
+License: GPL-2
+RoxygenNote: 6.1.1
+Encoding: UTF-8
